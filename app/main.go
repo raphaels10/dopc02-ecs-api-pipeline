@@ -7,7 +7,7 @@ import (
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	fmt.Fprintln(w, `{"message":"Hello World from v2!"}`)
+	fmt.Fprintln(w, `{"message":"Hello World from v3!"}`)
 }
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
